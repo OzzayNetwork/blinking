@@ -18,6 +18,8 @@ $(window).on('load', function(){
 		$(this).parent().addClass('d-none');
 	});
 	
+	
+	
 	$('.canceldec-btn').on('click', function(){
 		$('.modal .request-container').removeClass('d-none');
 		$('.modal .decline-reason').addClass('d-none');
@@ -59,6 +61,13 @@ $(window).on('load', function(){
 		$('#deactivate-parent #deactivate-parent-title').text("Why do you want to block "+the_title+"'s Account?");
 	})
 	//parent account blocking
+	
+	//decline school application
+	$('.table').on('click', '.decline-school', function(){
+		var the_title=$(this).parent().siblings('.the_school').children('p').children('a').text();
+		$('#decline-school #decline-school-title').text("Why do you want to block "+the_title+"'s application?");
+	})
+	//decline school application
 	
 	//students account blocking
 	$('.table').on('click', '.deactivate-blinker', function(){
