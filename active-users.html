@@ -70,48 +70,7 @@
 				
 				<ul class="top-nav">
                     <li class="hidden-xl-up"><a href="#" data-ma-action="search-open"><i class="zmdi zmdi-search"></i></a></li>
-					<li   class="dropdown">
-						<a href="#" data-toggle="dropdown" data-toggle="tooltip" data-original-title="Create Accounts" class="px-4 py-3" ><strong>Create</strong></a>
-						<div class="dropdown-menu dropdown-menu-right dropdown-menu--block">
-                            <div class="listview listview--hover">
-                                <div class="listview__header">
-                                    Create an Account
-                                </div>
-
-                                <div class="listview__scroll scrollbar-inner">
-                                    <a href="new-parent.html" class="listview__item">
-                                        <img src="demo/img/some-icons/parent.jpg" class="listview__img" alt="">
-                                        <div class="listview__content">
-                                            <div class="listview__heading">Parents (Gurdian) Account</div>
-                                            <p>Create a new parent's account</p>
-                                        </div>
-                                    </a>
-
-                                    <a href="new-student.html" class="listview__item">
-                                        <img src="demo/img/some-icons/student.jpg" class="listview__img" alt="">
-
-                                        <div class="listview__content">
-                                            <div class="listview__heading">Student's Account (Blinker)</div>
-                                            <p>Create a student's Accountl</p>
-                                        </div>
-                                    </a>
-
-                                    <a href="new-shop.html" class="listview__item">
-                                        <img src="demo/img/some-icons/shop.jpg" class="listview__img" alt="">
-
-                                        <div class="listview__content">
-                                            <div class="listview__heading">Tack Shop</div>
-                                            <p>Create Tack Shop account</p>
-                                        </div>
-                                    </a>
-
-                                </div>
-
-                                <div class="p-1"></div>
-                            </div>
-                        </div>
-						
-					</li>
+					
 					<li data-toggle="tooltip" data-original-title="Notifications" class="dropdown top-nav__notifications">
                         <a href="#" data-toggle="dropdown"  class="top-nav__notify" >
                             <i class="zmdi zmdi-notifications"></i>
@@ -204,14 +163,8 @@
                             </div>
                         </div>
                     </li>
-                    <li class="" >
-                        <a href="#" data-ma-action="aside-open" data-ma-target=".chat" data-toggle="tooltip" data-original-title="Associate Blinker Requests" class="top-nav__notify">
-                            <i class="zmdi zmdi-accounts-add"></i>
-                        </a>
-                    </li>
+                    
                 </ul>
-
-                
             </header>
 
             <aside class="sidebar">
@@ -227,34 +180,33 @@
 
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="my-profile.html">View Profile</a>
+                            <a class="dropdown-item d-none" href="#">Settings</a>
                             <a class="dropdown-item" href="landing-page.html">Logout</a>
                         </div>
                     </div>
 
                     <ul class="navigation">
                         <li class="navigation__active"><a href="index.html"><i class="zmdi zmdi-view-dashboard"></i>Home</a></li>
-						<li class="navigation__active"><a href="student.html"><i class="zmdi zmdi-face "></i>Students</a></li>
-						<li class="navigation__active"><a href="parents.html"><i class="zmdi zmdi-accounts-alt "></i>Parents</a></li>
-						<li class="navigation__active"><a href="shop.html"><i class="zmdi zmdi-store "></i>Shops</a></li>
-                        <li class="navigation__sub">
-                            <a href="#"><i class="zmdi zmdi-card"></i>Cards</a>
+						 <li class="navigation__sub">
+                            <a href="#"><i class="zmdi zmdi-attachment-alt"></i>Applications</a>
                             <ul>
-                                <li><a href="active-cards.html">Active cards</a></li>
-                                <li><a href="inactive-cards.html">Inactive cards</a></li>
-                                <li><a href="pending-cards.html">Pending cards</a></li>
-                                <li><a href="deactivated-cards.html">Deactivated cards</a></li>
+                                <li><a href="new-applications.html">New applications</a></li>
+                                <li><a href="rejected.html">Rejected Applications</a></li>
                             </ul>
 						</li>
-						<li class="navigation__active"><a href="shop.html"><i class="zmdi zmdi-accounts-add "></i>Association requests</a></li>
-						<li class="navigation__active"><a href="shop.html"><i class="zmdi zmdi-hourglass-alt"></i>Transactions reports</a></li>
+						<li class="navigation__active"><a href="schools.html"><i class="zmdi zmdi-graduation-cap"></i>Schools</a></li>
+						<li class="navigation__active"><a href="transactions.html"><i class="zmdi zmdi-swap"></i>Blink transactions</a></li>
+						<li class="navigation__active"><a href="transactions.html"><i class="zmdi zmdi-money"></i>Collections</a></li>
+
+                        
 						 <li class="navigation__sub">
                             <a href="#"><i class="zmdi zmdi-account"></i>Systems Users</a>
 
                             <ul>
-                                <li><a href="#">Add a user</a></li>
-                                <li><a href="#">Remove a user</a></li>
-                                <li><a href="#">View list of users</a></li>
-                                <li><a href="#">Add roles</a></li>
+								<li><a href="new-user.html">New User</a></li>
+								<li><a href="active-users.html">Active users</a></li>
+                                <li><a href="blocked-users.html">Blocked Users</a></li>
+                                
                             </ul>
                         </li>
 						 <li class="navigation__active mt-4"><a href="landing-page.html"><i class="zmdi zmdi-power"></i>Logout</a></li>
