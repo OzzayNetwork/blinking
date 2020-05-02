@@ -9849,7 +9849,8 @@ button, input, optgroup, select, textarea {
     -ms-flex: 1;
     flex: 1;
     margin-right: 2.5rem;
-    position: relative
+    position: relative;
+	margin-bottom: 0px;
 }
 
 @media (max-width:1199.98px) {
@@ -9946,7 +9947,7 @@ opacity:1
 @media (max-width:1199.98px) {
 .search__text {
     background-color: #f6f6f6;
-    color: #495057
+    color: #495057;
 }
 .search__text::-webkit-input-placeholder {
 color:#606a73;
@@ -13587,7 +13588,7 @@ ul.jqtree-tree ul.jqtree_common {
 	content: "";
 	top: 0;
 	left: 0;
-	background:linear-gradient(to top,#f26b2cd9, #000000a1);
+	background:linear-gradient(to top,#2196F3, #000000a1);
 	z-index: -1;
 	
 }
@@ -13644,7 +13645,7 @@ ul.jqtree-tree ul.jqtree_common {
 	content: "";
 	top: 0;
 	left: 0;
-	background:linear-gradient(to left,#f26b2c, #000000f0);
+	background:linear-gradient(to left,#2196F3, #000000f0);
 	z-index: -1;
 	
 }
